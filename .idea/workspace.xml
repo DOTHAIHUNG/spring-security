@@ -8,7 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5683f27c-e398-404b-a863-eee006e86fc3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -67,11 +67,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+            <state relative-caret-position="481">
+              <caret line="37" column="108" lean-forward="true" selection-start-line="37" selection-start-column="108" selection-end-line="37" selection-end-column="108" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Procfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="89" selection-start-column="89" selection-end-column="89" />
             </state>
           </provider>
         </entry>
@@ -105,8 +114,8 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/hk3t/WebConfig.java" />
-        <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/Procfile" />
       </list>
     </option>
   </component>
@@ -124,9 +133,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="285" />
+    <option name="x" value="569" />
     <option name="y" value="23" />
-    <option name="width" value="1155" />
+    <option name="width" value="871" />
     <option name="height" value="829" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -213,7 +222,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547729290847" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547730363274" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -322,7 +331,7 @@
       <updated>1547694589704</updated>
       <workItem from="1547694593541" duration="3804000" />
       <workItem from="1547709131889" duration="791000" />
-      <workItem from="1547728967251" duration="324000" />
+      <workItem from="1547728967251" duration="1197000" />
     </task>
     <task id="LOCAL-00001" summary="add procfile">
       <created>1547729212024</created>
@@ -331,17 +340,24 @@
       <option name="project" value="LOCAL" />
       <updated>1547729212024</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="change buid.gradle">
+      <created>1547729305229</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1547729305229</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4919000" />
+    <option name="totallyTimeSpent" value="5792000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="285" y="23" width="1155" height="829" extended-state="0" />
+    <frame x="569" y="23" width="871" height="829" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20035939" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2689988" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -351,7 +367,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32971507" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32971507" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -359,7 +375,7 @@
       <window_info anchor="bottom" id="Build" order="7" weight="0.32971507" />
       <window_info anchor="bottom" id="Application Servers" order="8" weight="0.32971507" />
       <window_info anchor="bottom" id="Spring" order="9" weight="0.32971507" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32971507" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32971507" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32971507" />
@@ -374,7 +390,7 @@
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="Gradle" order="8" visible="true" weight="0.108715184" />
+      <window_info anchor="right" id="Gradle" order="8" visible="true" weight="0.14595899" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info anchor="right" id="Theme Preview" order="10" />
     </layout>
@@ -386,7 +402,8 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="add procfile" />
-    <option name="LAST_COMMIT_MESSAGE" value="add procfile" />
+    <MESSAGE value="change buid.gradle" />
+    <option name="LAST_COMMIT_MESSAGE" value="change buid.gradle" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -477,17 +494,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Procfile">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="80" selection-start-column="80" selection-end-column="80" />
+        <state relative-caret-position="481">
+          <caret line="37" column="108" lean-forward="true" selection-start-line="37" selection-start-column="108" selection-end-line="37" selection-end-column="108" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+        <state>
+          <caret column="89" selection-start-column="89" selection-end-column="89" />
         </state>
       </provider>
     </entry>
