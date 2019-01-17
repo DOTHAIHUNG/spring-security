@@ -17,6 +17,18 @@ configurations {
     provided.extendsFrom(compile)
 }
 
+task stage(){
+    dependsOn: ['build', 'clean']
+}
+build.mustRunAfter clean
+
+task copyToLib(type: Copy) {
+    into "$buildDir/lib"
+    from(configurations.compile)
+}
+
+stage.dependsOn(copyToLib)
+
 dependencies {
     // https://mvnrepository.com/artifact/org.springframework/spring-webmvc
     compile group: 'org.springframework', name: 'spring-webmvc', version: '4.3.10.RELEASE'
