@@ -17,9 +17,7 @@ configurations {
     provided.extendsFrom(compile)
 }
 
-task stage(){
-    dependsOn: ['build', 'clean']
-}
+task stage(dependsOn: ['build', 'clean'])
 build.mustRunAfter clean
 
 task copyToLib(type: Copy) {
